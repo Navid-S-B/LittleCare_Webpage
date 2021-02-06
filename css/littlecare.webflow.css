@@ -198,7 +198,7 @@ figcaption {
 
 .button {
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding: 12px 25px;
   border-radius: 0px;
   background-color: #df85c6;
@@ -1795,6 +1795,140 @@ figcaption {
   background-color: hsla(0, 0%, 100%, 0.9);
 }
 
+.facebook-button {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 12px 25px;
+  border-radius: 0px;
+  background-color: #df85c6;
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  font-family: Kollektif, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.facebook-button:hover {
+  background-color: #32343a;
+  color: #fff;
+}
+
+.facebook-button:active {
+  background-color: #43464d;
+}
+
+.facebook-button.cc-jumbo-button {
+  padding: 16px 35px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.facebook-button.cc-jumbo-button.cc-jumbo-white {
+  background-color: #df85c6;
+  color: #000;
+}
+
+.facebook-button.cc-jumbo-button.cc-jumbo-white:hover {
+  background-color: #f1f1f1;
+}
+
+.facebook-button.cc-jumbo-button.cc-jumbo-white:active {
+  background-color: #e1e1e1;
+}
+
+.facebook-button.cc-contact-us {
+  position: relative;
+  z-index: 5;
+}
+
+.facebook-button.cc-white-button {
+  padding: 16px 35px;
+  background-color: #df85c6;
+  font-family: Kollektif, sans-serif;
+  color: #202020;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.facebook-button.cc-white-button:hover {
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+.facebook-button.cc-white-button:active {
+  background-color: hsla(0, 0%, 100%, 0.9);
+}
+
+.link-button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 12px 25px;
+  border-radius: 0px;
+  background-color: #df85c6;
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  font-family: Kollektif, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link-button:hover {
+  background-color: #32343a;
+  color: #fff;
+}
+
+.link-button:active {
+  background-color: #43464d;
+}
+
+.link-button.cc-jumbo-button {
+  padding: 16px 35px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.link-button.cc-jumbo-button.cc-jumbo-white {
+  background-color: #df85c6;
+  color: #000;
+}
+
+.link-button.cc-jumbo-button.cc-jumbo-white:hover {
+  background-color: #f1f1f1;
+}
+
+.link-button.cc-jumbo-button.cc-jumbo-white:active {
+  background-color: #e1e1e1;
+}
+
+.link-button.cc-contact-us {
+  position: relative;
+  z-index: 5;
+}
+
+.link-button.cc-white-button {
+  padding: 16px 35px;
+  background-color: #df85c6;
+  font-family: Kollektif, sans-serif;
+  color: #202020;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.link-button.cc-white-button:hover {
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+.link-button.cc-white-button:active {
+  background-color: hsla(0, 0%, 100%, 0.9);
+}
+
 @media screen and (max-width: 991px) {
   .section.cc-cta {
     padding-right: 0px;
@@ -2068,6 +2202,28 @@ figcaption {
   }
 
   .donation-button.cc-contact-us {
+    display: none;
+  }
+
+  .facebook-button {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .facebook-button.cc-contact-us {
+    display: none;
+  }
+
+  .link-button {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .link-button.cc-contact-us {
     display: none;
   }
 }
