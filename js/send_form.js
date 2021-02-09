@@ -20,7 +20,7 @@ submit_button.addEventListener('click', function() {
             text_success.innerHTML = "Message wasn't able to be sent :(. Please email us directly at littlecare99@gmail.com.";
             setTimeout(() => { submit_status_box.style.display = "block"; }, 1000);
         } else {
-            ext_success.innerHTML = "Message successfully sent. You will be contacted within 2-5 business days :)";
+            text_success.innerHTML = "Message successfully sent. You will be contacted within 2-5 business days :)";
             setTimeout(() => { submit_status_box.style.display = "block"; }, 1000);
         }
     }
