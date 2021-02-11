@@ -176,7 +176,7 @@ figcaption {
 }
 
 .paragraph-tiny {
-  font-size: 12px;
+  font-size: 14.0625px;
   line-height: 20px;
 }
 
@@ -511,7 +511,7 @@ figcaption {
   align-items: center;
 }
 
-.webflow-link {
+.charity-reg-link {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -524,19 +524,15 @@ figcaption {
   -webkit-transition: opacity 400ms ease;
   transition: opacity 400ms ease;
   text-decoration: none;
+  text-align: center;
 }
 
-.webflow-link:hover {
+.charity-reg-link:hover {
   opacity: 1;
 }
 
-.webflow-link:active {
+.charity-reg-link:active {
   opacity: 0.8;
-}
-
-.webflow-logo-tiny {
-  margin-top: -2px;
-  margin-right: 8px;
 }
 
 .cta-text {
